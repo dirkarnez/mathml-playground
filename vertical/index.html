@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Math Calculation with MathML</title>
+    <style>
+        .underline {
+            border-bottom: 2px solid black; /* Adjust thickness as needed */
+            padding-top: 0px; /* Adjust to align with text */
+        }
+    </style>
+</head>
+<body>
+    <math>
+        <mtable >
+            <mtr >
+                <mtd columnspan="2" style="text-align: -webkit-right;"><mn>1</mn></mtd>
+            </mtr>
+            <mtr>
+                <mtd columnspan="2" style="text-align: -webkit-right;"><mn>22</mn></mtd>
+            </mtr>
+            <mtr>
+                <mtd columnspan="2" style="text-align: -webkit-right;"><mn>333</mn></mtd>
+            </mtr>
+            <mtr>
+                <mtd><mo>+</mo></mtd>
+                <mtd style="text-align: -webkit-right;"><mn>3</mn></mtd>
+            </mtr>
+            <mtr>
+                <mtd class="underline" columnspan="2"></mtd>
+            </mtr>
+            <mtr>
+                <mtd columnspan="2" style="text-align: -webkit-right;"><mn>22</mn></mtd>
+            </mtr>
+        </mtable>
+    </math>
+</body>
+</html>
